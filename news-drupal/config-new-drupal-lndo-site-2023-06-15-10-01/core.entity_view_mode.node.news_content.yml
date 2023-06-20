@@ -1,0 +1,10 @@
+uuid: cf22c1a6-42a2-4ba7-91cb-1bec72939ad0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.news_content
+label: 'News content'
+targetEntityType: node
+cache: true

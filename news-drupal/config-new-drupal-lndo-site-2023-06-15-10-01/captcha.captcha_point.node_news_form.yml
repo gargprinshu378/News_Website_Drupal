@@ -1,0 +1,7 @@
+uuid: 3ede1f9b-0936-4c2f-862e-4b77aada27a3
+langcode: en
+status: false
+dependencies: {  }
+formId: node_news_form
+captchaType: default
+label: node_news_form

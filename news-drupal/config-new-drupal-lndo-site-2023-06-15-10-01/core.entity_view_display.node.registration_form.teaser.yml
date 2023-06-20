@@ -1,0 +1,32 @@
+uuid: 4120f898-3587-4cbd-a996-5487a1603ddd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.registration_form.field_captcha
+    - field.field.node.registration_form.field_dob
+    - field.field.node.registration_form.field_first_name
+    - field.field.node.registration_form.field_gender
+    - field.field.node.registration_form.field_last_name
+    - field.field.node.registration_form.field_secret_key
+    - node.type.registration_form
+  module:
+    - user
+id: node.registration_form.teaser
+targetEntityType: node
+bundle: registration_form
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_captcha: true
+  field_dob: true
+  field_first_name: true
+  field_gender: true
+  field_last_name: true
+  field_secret_key: true

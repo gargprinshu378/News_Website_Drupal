@@ -1,0 +1,29 @@
+uuid: 94e56d47-3bf5-4efd-a6cc-a6d68ae068b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news
+  module:
+    - system
+    - views
+  theme:
+    - gin
+id: views_block__news_block_1
+theme: gin
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:news-block_1'
+settings:
+  id: 'views_block:news-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home

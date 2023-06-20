@@ -1,0 +1,30 @@
+uuid: ee35d0e8-75e7-4883-a8e5-15d319c4e985
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.news_content
+    - field.field.node.news.body
+    - field.field.node.news.field_advertisement
+    - field.field.node.news.field_category
+    - field.field.node.news.field_news_image
+    - field.field.node.news.field_reporter
+    - node.type.news
+  module:
+    - user
+id: node.news.news_content
+targetEntityType: node
+bundle: news
+mode: news_content
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  field_advertisement: true
+  field_category: true
+  field_news_image: true
+  field_reporter: true

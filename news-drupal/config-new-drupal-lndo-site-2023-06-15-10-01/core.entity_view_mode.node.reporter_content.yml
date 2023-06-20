@@ -1,0 +1,10 @@
+uuid: d061d1e7-b9e3-40d5-8c4b-cc6d6d35dca8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.reporter_content
+label: 'Reporter Content'
+targetEntityType: node
+cache: true

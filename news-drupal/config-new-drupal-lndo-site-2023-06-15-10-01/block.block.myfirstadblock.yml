@@ -1,0 +1,41 @@
+uuid: 215d8db6-14c9-475f-8959-370a61aa0f49
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:ad:3dc4fde7-50d6-42d2-8f59-0c0b9525ec14'
+  module:
+    - block_content
+    - node
+    - user
+  theme:
+    - gin
+id: myfirstadblock
+theme: gin
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:3dc4fde7-50d6-42d2-8f59-0c0b9525ec14'
+settings:
+  id: 'block_content:3dc4fde7-50d6-42d2-8f59-0c0b9525ec14'
+  label: 'My first ad block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      authenticated: authenticated
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article

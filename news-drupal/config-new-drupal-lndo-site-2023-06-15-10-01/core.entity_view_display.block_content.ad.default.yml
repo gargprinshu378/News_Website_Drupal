@@ -1,0 +1,35 @@
+uuid: fe4d7d0e-0c12-4c1b-b537-e3225bc9e451
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ad
+    - field.field.block_content.ad.field_image
+    - field.field.block_content.ad.field_title
+  module:
+    - image
+id: block_content.ad.default
+targetEntityType: block_content
+bundle: ad
+mode: default
+content:
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

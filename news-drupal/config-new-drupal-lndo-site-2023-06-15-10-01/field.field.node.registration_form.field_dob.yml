@@ -1,0 +1,21 @@
+uuid: db4088ab-1b07-4bb0-9959-2521c28bf739
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dob
+    - node.type.registration_form
+  module:
+    - datetime
+id: node.registration_form.field_dob
+field_name: field_dob
+entity_type: node
+bundle: registration_form
+label: DOB
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

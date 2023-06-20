@@ -1,0 +1,21 @@
+uuid: 44d6ff4e-65bf-4cb7-8487-26ff063e58ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gender
+    - node.type.registration_form
+  module:
+    - options
+id: node.registration_form.field_gender
+field_name: field_gender
+entity_type: node
+bundle: registration_form
+label: Gender
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,77 @@
+uuid: 34962641-4c24-4da2-836c-997bf28e3f90
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.registration_form.field_captcha
+    - field.field.node.registration_form.field_dob
+    - field.field.node.registration_form.field_first_name
+    - field.field.node.registration_form.field_gender
+    - field.field.node.registration_form.field_last_name
+    - field.field.node.registration_form.field_secret_key
+    - node.type.registration_form
+  module:
+    - datetime
+    - options
+    - user
+    - webform
+id: node.registration_form.default
+targetEntityType: node
+bundle: registration_form
+mode: default
+content:
+  field_captcha:
+    type: webform_entity_reference_entity_view
+    label: above
+    settings:
+      source_entity: true
+      lazy: false
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_dob:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_first_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_gender:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_last_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_secret_key:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

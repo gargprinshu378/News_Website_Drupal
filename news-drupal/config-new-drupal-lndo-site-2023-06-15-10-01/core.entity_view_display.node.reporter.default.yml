@@ -1,0 +1,28 @@
+uuid: 121da48c-bd8a-4abb-855d-b56357847e5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.reporter.body
+    - node.type.reporter
+  module:
+    - text
+    - user
+id: node.reporter.default
+targetEntityType: node
+bundle: reporter
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

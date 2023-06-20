@@ -1,0 +1,24 @@
+uuid: 6da4cdda-f5b8-45f4-9d8f-99dd96cd8545
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.author.field_author_name
+    - field.field.node.author.field_bio
+    - node.type.author
+  module:
+    - user
+id: node.author.teaser
+targetEntityType: node
+bundle: author
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_author_name: true
+  field_bio: true

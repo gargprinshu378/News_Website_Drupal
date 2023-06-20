@@ -1,0 +1,29 @@
+uuid: 90c890d5-9863-4456-95d7-887ad9e51783
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.dual_content_page
+  module:
+    - system
+    - views
+  theme:
+    - gin
+id: views_block__dual_content_page_block_1
+theme: gin
+region: highlighted
+weight: 0
+provider: null
+plugin: 'views_block:dual_content_page-block_1'
+settings:
+  id: 'views_block:dual_content_page-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home

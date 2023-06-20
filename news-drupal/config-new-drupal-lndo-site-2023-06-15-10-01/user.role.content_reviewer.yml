@@ -1,0 +1,79 @@
+uuid: 7ef50f67-5dc1-4bbf-bc99-6734e60ad0e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.author
+    - node.type.news
+    - node.type.page
+    - node.type.registration_form
+    - node.type.reporter
+    - node.type.webform
+  module:
+    - node
+    - system
+id: content_reviewer
+label: 'Content Reviewer'
+weight: 4
+is_admin: null
+permissions:
+  - 'access content'
+  - 'administer themes'
+  - 'create article content'
+  - 'create author content'
+  - 'create news content'
+  - 'create page content'
+  - 'create registration_form content'
+  - 'create reporter content'
+  - 'create webform content'
+  - 'delete any article content'
+  - 'delete any author content'
+  - 'delete any news content'
+  - 'delete any page content'
+  - 'delete any registration_form content'
+  - 'delete any reporter content'
+  - 'delete any webform content'
+  - 'delete article revisions'
+  - 'delete author revisions'
+  - 'delete news revisions'
+  - 'delete own article content'
+  - 'delete own author content'
+  - 'delete own news content'
+  - 'delete own page content'
+  - 'delete own registration_form content'
+  - 'delete own reporter content'
+  - 'delete own webform content'
+  - 'delete page revisions'
+  - 'delete registration_form revisions'
+  - 'delete reporter revisions'
+  - 'delete webform revisions'
+  - 'edit any article content'
+  - 'edit any author content'
+  - 'edit any news content'
+  - 'edit any page content'
+  - 'edit any registration_form content'
+  - 'edit any reporter content'
+  - 'edit any webform content'
+  - 'edit own article content'
+  - 'edit own author content'
+  - 'edit own news content'
+  - 'edit own page content'
+  - 'edit own registration_form content'
+  - 'edit own reporter content'
+  - 'edit own webform content'
+  - 'revert article revisions'
+  - 'revert author revisions'
+  - 'revert news revisions'
+  - 'revert page revisions'
+  - 'revert registration_form revisions'
+  - 'revert reporter revisions'
+  - 'revert webform revisions'
+  - 'view article revisions'
+  - 'view author revisions'
+  - 'view news revisions'
+  - 'view own unpublished content'
+  - 'view page revisions'
+  - 'view registration_form revisions'
+  - 'view reporter revisions'
+  - 'view webform revisions'

@@ -1,0 +1,23 @@
+uuid: ad04619e-541d-4a2b-95d4-c6a584335f4a
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - field_permissions
+    - link
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: block_content.field_read_more_link
+field_name: field_read_more_link
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

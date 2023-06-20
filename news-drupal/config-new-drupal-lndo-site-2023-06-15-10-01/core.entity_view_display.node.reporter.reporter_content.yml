@@ -1,0 +1,29 @@
+uuid: c10909fb-dffd-4eb9-8b0f-013f9a66bc58
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.reporter_content
+    - field.field.node.reporter.body
+    - node.type.reporter
+  module:
+    - text
+    - user
+id: node.reporter.reporter_content
+targetEntityType: node
+bundle: reporter
+mode: reporter_content
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

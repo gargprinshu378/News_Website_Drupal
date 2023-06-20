@@ -1,0 +1,23 @@
+uuid: 3cc088ff-f42a-4ede-90cc-4a08a4a13f4b
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - field_permissions
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: block_content.field_descr
+field_name: field_descr
+entity_type: block_content
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

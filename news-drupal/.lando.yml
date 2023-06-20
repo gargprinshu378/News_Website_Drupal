@@ -1,0 +1,8 @@
+name: new-drupal
+recipe: drupal10
+services:
+  appserver:
+    webroot: web
+  mail:
+      type: mailhog
+

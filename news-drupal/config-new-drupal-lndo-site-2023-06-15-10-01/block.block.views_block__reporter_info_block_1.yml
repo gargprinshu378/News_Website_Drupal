@@ -1,0 +1,33 @@
+uuid: 932b63f6-dc9c-48b8-b18b-47b33aef2020
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.reporter_info
+  module:
+    - node
+    - views
+  theme:
+    - gin
+id: views_block__reporter_info_block_1
+theme: gin
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:reporter_info-block_1'
+settings:
+  id: 'views_block:reporter_info-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      news: news

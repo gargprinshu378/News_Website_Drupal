@@ -1,0 +1,19 @@
+uuid: cd44849e-921b-43af-ad4c-e6451107a444
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ad
+    - field.storage.block_content.field_title
+id: block_content.ad.field_title
+field_name: field_title
+entity_type: block_content
+bundle: ad
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

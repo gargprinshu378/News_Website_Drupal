@@ -1,0 +1,15 @@
+uuid: 3b67ffe0-74b6-42e7-9c57-acca51bfaa10
+langcode: en
+status: true
+dependencies: {  }
+name: base_style
+label: 'Base Style'
+effects:
+  eb39cf62-294f-49dc-a06b-fb8b8b15eda6:
+    uuid: eb39cf62-294f-49dc-a06b-fb8b8b15eda6
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 600
+      height: 400
+      anchor: center-center

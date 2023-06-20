@@ -1,0 +1,29 @@
+uuid: 32acd685-671c-4316-9171-0353ee2995e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.ad
+    - field.storage.node.field_advertisement
+    - node.type.news
+id: node.news.field_advertisement
+field_name: field_advertisement
+entity_type: node
+bundle: news
+label: Advertisement
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:block_content'
+  handler_settings:
+    target_bundles:
+      ad: ad
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

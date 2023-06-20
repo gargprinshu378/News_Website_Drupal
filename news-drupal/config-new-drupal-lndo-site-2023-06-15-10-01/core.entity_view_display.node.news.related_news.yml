@@ -1,0 +1,30 @@
+uuid: f6819d1b-043c-474a-a7d3-5cdcdc8368ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.related_news
+    - field.field.node.news.body
+    - field.field.node.news.field_advertisement
+    - field.field.node.news.field_category
+    - field.field.node.news.field_news_image
+    - field.field.node.news.field_reporter
+    - node.type.news
+  module:
+    - user
+id: node.news.related_news
+targetEntityType: node
+bundle: news
+mode: related_news
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  field_advertisement: true
+  field_category: true
+  field_news_image: true
+  field_reporter: true

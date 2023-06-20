@@ -1,0 +1,34 @@
+uuid: 88f59316-76a9-451b-b634-5aae2d669129
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:banner:dd6fc7d0-771a-4b52-bd39-9c0d8b1dd553'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - gin
+third_party_settings:
+  block_class:
+    classes: custom-banner-block
+id: custombanner
+theme: gin
+region: header
+weight: -7
+provider: null
+plugin: 'block_content:dd6fc7d0-771a-4b52-bd39-9c0d8b1dd553'
+settings:
+  id: 'block_content:dd6fc7d0-771a-4b52-bd39-9c0d8b1dd553'
+  label: 'Custom Banner'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home

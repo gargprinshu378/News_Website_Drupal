@@ -1,0 +1,30 @@
+uuid: 16c12ede-b2ec-4574-ba0c-0bbf2dd0f448
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.3_reporter_news
+  module:
+    - system
+    - views
+  theme:
+    - gin
+id: views_block__3_reporter_news_block_1
+theme: gin
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:3_reporter_news-block_1'
+settings:
+  id: 'views_block:3_reporter_news-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home

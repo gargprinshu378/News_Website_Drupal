@@ -1,0 +1,33 @@
+uuid: 15f4886e-28fc-460e-9b32-7da9fdd60aa8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_captcha
+    - node.type.registration_form
+    - webform.webform.captcha
+  module:
+    - webform
+id: node.registration_form.field_captcha
+field_name: field_captcha
+entity_type: node
+bundle: registration_form
+label: Captcha
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: ca6f22f1-65bd-4dee-b2d9-1e720202a02c
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+    webform_access_group: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform

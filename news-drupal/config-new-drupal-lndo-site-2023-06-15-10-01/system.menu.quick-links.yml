@@ -1,0 +1,8 @@
+uuid: 834d8d3f-306f-4405-ade1-6fe63a16826b
+langcode: en
+status: true
+dependencies: {  }
+id: quick-links
+label: 'Quick Links'
+description: 'This will show the website links for the different news agency.'
+locked: false

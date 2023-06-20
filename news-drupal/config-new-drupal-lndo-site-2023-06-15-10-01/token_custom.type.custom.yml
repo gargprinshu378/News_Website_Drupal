@@ -1,0 +1,9 @@
+uuid: 53255419-4477-457e-90c9-c80fe78544b3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vvEOFLu3qBwTrRiX2bmRT2wzGh4phX-nSSpdG3CyvA8
+machineName: custom
+name: Custom
+description: 'User created tokens types using the Custom Tokens module.'

@@ -1,0 +1,37 @@
+uuid: e69d9820-cfd5-4d05-8d40-764d9bdeea44
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.webform_default
+    - node.type.registration_form
+  module:
+    - comment
+    - contact
+    - filter
+    - node
+    - search
+    - shortcut
+    - system
+    - toolbar
+_core:
+  default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'access toolbar'
+  - 'administer menu'
+  - 'administer shortcuts'
+  - 'create registration_form content'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'use text format webform_default'
